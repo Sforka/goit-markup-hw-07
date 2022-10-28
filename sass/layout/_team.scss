@@ -2,7 +2,7 @@
     background: var(--color-background-team);
 }
 
-.team-title {
+.team__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -13,24 +13,24 @@
     color: var(--color-title-text);
 }
 
-.team-list {
+.team__list {
     display: flex;
     gap: 30px;
 }
 
-.team-item {
+.team__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
     background-color: var(--color-background-white);
 }
 
-.team-info {
+.information {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-name {
+.information__name {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -42,7 +42,7 @@
     color: var(--color-title-text);
 }
 
-.team-text {
+.information__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;
@@ -53,13 +53,13 @@
     color: var(--color-main-text);
 }
 
-.team-soc-list {
+.socials {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.team-soc-link {
+.socials__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -74,11 +74,11 @@
     }
 }
 
-.team-soc-icon {
+.socials__icon {
     fill: var(--color-icon-grey);
     transition: fill var(--animation-delay);
-    .team-soc-link:hover &,
-    .team-soc-link:focus & {
+    .socials__link:hover &,
+    .socials__link:focus & {
         fill: var(--color-white-text);
     }
 }

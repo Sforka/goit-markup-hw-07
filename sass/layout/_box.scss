@@ -3,7 +3,7 @@
     background-color: var(--color-background-white);
 }
 
-.box-title.title {
+.box__title.title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -14,17 +14,17 @@
     color: var(--color-title-text);
 }
 
-.box-list {
+.box__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.box-item {
+.box__item {
     position: relative;
 }
 
-.box-text {
+.box__text {
     position: absolute;
     bottom: 0;
 

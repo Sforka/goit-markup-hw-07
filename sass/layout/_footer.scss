@@ -6,12 +6,12 @@
     padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
 
-.address-container {
+.address__container {
     margin-right: 70px;
 }
 
@@ -28,15 +28,15 @@
     color: var(--color-white-text);
 }
 
-.address-item {
+.address__item {
     margin-bottom: 9px;
 }
 
-.address-item:last-child {
+.address__item:last-child {
     margin-bottom: 0px;
 }
 
-.address-map {
+.address__map {
     font-size: 14px;
     line-height: 1.71;
 
@@ -45,7 +45,7 @@
     color: var(--color-white-text);
 }
 
-.address-mail {
+.address__mail {
     font-size: 14px;
     line-height: 1.71;
 
@@ -54,7 +54,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.address-tel {
+.address__tel {
     font-size: 14px;
     line-height: 1.71;
 
@@ -63,11 +63,11 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-soc-container {
+.footer-socials {
     margin-right: 93px;
 }
 
-.footer-soc-text {
+.socials__text {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -77,13 +77,13 @@
     color: var(--color-white-text);
 }
 
-.footer-soc-list {
+.socials__list-footer {
     display: flex;
     justify-content: left;
     gap: 10px;
 }
 
-.footer-soc-link {
+.socials__link-footer {
     transition: color var(--animation-delay), background-color var(--animation-delay);
     width: 44px;
     height: 44px;
@@ -99,17 +99,17 @@
     }
 }
 
-.footer-soc-icon {
+.socials__icon-footer {
     transition: fill var(--animation-delay);
     fill: var(--color-white-text);
 
-    .footer-soc-link:hover &,
-    .footer-soc-link:focus & {
+    .socials__link &,
+    .socials__link & {
         fill: var(--color-white-text);
     }
 }
 
-.footer-email-title {
+.email__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -120,13 +120,13 @@
     color: var(--color-white-text);
 }
 
-.footer-email-box {
+.email__box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-email-box input {
+.email__box input {
     width: 350px;
     height: 50px;
     margin-right: 12px;
@@ -168,7 +168,7 @@
     }
 }
 
-.footer-email-button {
+.email__button {
     width: 200px;
     height: 50px;
 
@@ -198,7 +198,7 @@
     }
 }
 
-.footer-email-icon {
+.button__icon {
     margin-left: 10px;
     fill: var(--color-white-text);
 }

@@ -2,12 +2,12 @@
     background-color: var(--color-background-white);
 }
 
-.feature-list {
+.feature__list {
     display: flex;
     gap: 30px;
 }
 
-.feature-picture {
+.feature__picture {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
     background-color: var(--color-background-team);
 }
 
-.feature-title {
+.feature__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -30,7 +30,7 @@
     color: var(--color-title-text);
 }
 
-.feature-text {
+.feature__text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

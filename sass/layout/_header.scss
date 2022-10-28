@@ -1,4 +1,4 @@
-.container-header {
+.container__header {
     display: flex;
 }
 
@@ -16,11 +16,11 @@
     color: var(--color-black-text);
 }
 
-.logo-text {
+.logo__text {
     color: var(--color-logo);
 }
 
-.nav-list {
+.nav__list {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -29,11 +29,11 @@
     }
 }
 
-.nav-item {
+.nav__item {
     position: relative;
 }
 
-.nav-link {
+.nav__link {
     position: relative;
     display: inline-block;
     padding: 32px 0;
@@ -77,19 +77,19 @@
     gap: 30px;
 }
 
-.contacts-icon {
+.contacts__icon {
     margin-right: 10px;
     align-items: baseline;
     transition: fill var(--animation-delay);
     fill: var(--color-contact-text);
 
-    .contacts-link:hover &,
-    .contacts-link:focus & {
+    .contacts__link:hover &,
+    .contacts__link:focus & {
         fill: var(--color-active-link);
     }
 }
 
-.contacts-link {
+.contacts__link {
     position: relative;
     display: flex;
     align-items: center;

@@ -29,7 +29,7 @@
     transform: translate(-50%, -50%) scale(0) translateX(-100%);
 }
 
-.modal-close-button {
+.modal__close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -58,13 +58,7 @@
     pointer-events: none;
 }
 
-.modal-container {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-}
-
-.modal-title {
+.modal__title {
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -75,12 +69,12 @@
     color: var(--color-title-text);
 }
 
-.modal-user-info {
+.user-info {
     display: flex;
     flex-direction: column;
 }
 
-.modal-box {
+.user-info__box {
     position: relative;
 
     font-weight: 400;
@@ -91,7 +85,7 @@
     color: var(--color-contact-text);
 }
 
-.modal-info-icon {
+.user-info__icon {
     position: absolute;
     fill: var(--color-nav-text);
     top: 60%;
@@ -99,13 +93,13 @@
     transform: translateY(-60%);
 
     transition: fill var(--animation-delay);
-    .modal-input:hover + &,
-    .modal-input:focus + & {
+    .user-info__input:hover + &,
+    .user-info__input:focus + & {
         fill: var(--color-active-link);
     }
 }
 
-.modal-input {
+.user-info__input {
     position: relative;
     margin-top: 4px;
     margin-bottom: 10px;
@@ -153,7 +147,7 @@ textarea {
     }
 }
 
-.agreement-box {
+.agreement__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,7 +165,7 @@ textarea {
     color: var(--color-contact-text);
 }
 
-.agreement-checkbox {
+.agreement__checkbox {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -182,7 +176,7 @@ textarea {
     clip: rect(0 0 0 0);
 }
 
-.modal-icon-check {
+.aggreement__icon-check {
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -191,18 +185,18 @@ textarea {
     background-origin: border-box;
     border: 2px solid var(--color-black-text);
 
-    .agreement-checkbox:checked + & {
+    .agreement__checkbox:checked + & {
         background-color: var(--color-active-link);
         border-color: transparent;
         background-size: contain;
     }
 }
 
-.agreement-link {
+.agreement__link {
     color: var(--color-active-link);
 }
 
-.modal-submit-button {
+.modal__button-submit {
     width: 200px;
     height: 50px;
 

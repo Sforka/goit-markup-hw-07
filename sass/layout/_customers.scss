@@ -1,4 +1,4 @@
-.customers-title {
+.customer__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -8,17 +8,17 @@
   color: var(--color-black-text);
 }
 
-.customers-list {
+.customers {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.customers-icon {
+.customers__icon {
   fill: var(--color-icon-grey);
   transition: color var(--animation-delay), fill var(--animation-delay);
 }
 
-.customers-link {
+.customers__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,8 +29,8 @@
   &:hover,
   &:focus {
     border-color: var(--color-active-link);
-    & .customers-icon,
-    & .customers-icon {
+    & .customers__icon,
+    & .customers__icon {
       fill: var(--color-active-link);
     }
   }
