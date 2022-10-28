@@ -1,16 +1,11 @@
-@import "./utils/vars";
-@import "./base/reset";
-@import "./base/common";
-@import "./utils/visually-hidden";
-@import "./component/container";
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/feature";
-@import "./layout/box";
-@import "./layout/team";
-@import "./layout/customers";
-@import "./layout/modal";
-@import "./layout/footer";
-@import "./base/portfolio-common";
-@import "./layout/portfolio-filters-btn";
-@import "./layout/portfolio-projects";
+// utils
+@import "./utils/main.scss";
+
+// base
+@import "./base/main.scss";
+
+// components
+@import "./component/main.scss";
+
+// layout
+@import "./layout/main.scss";
