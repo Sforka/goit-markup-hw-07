@@ -2,10 +2,12 @@
     display: flex;
 }
 
+.container__header-portfolio {
+    border-bottom: 1px solid var(--color-border-header);;
+}
+
 .logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
+    
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -14,6 +16,12 @@
     text-decoration: none;
 
     color: var(--color-black-text);
+}
+
+.logo-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
 }
 
 .logo__text {
